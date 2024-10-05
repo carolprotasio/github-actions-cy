@@ -8,7 +8,10 @@ Este repositório faz parte do curso da QA Xperience na Udemy, que aborda a cons
 
 ## 🚀 Objetivo do Projeto
 
-O projeto visa automatizar a execução dos testes de regressão através do GitHub Actions. Com isso, os testes não precisam ser executados localmente, facilitando a detecção precoce de defeitos no ciclo de desenvolvimento, além de aumentar a confiabilidade do código. 
+O projeto visa automatizar a execução dos testes de regressão através do GitHub Actions. Com isso, os testes não precisam ser executados localmente, facilitando a detecção precoce de defeitos no ciclo de desenvolvimento, além de aumentar a confiabilidade do código.
+<div align="center">
+<img src="https://github.com/carolprotasio/cypress-actions/blob/main/.github/tsults-diff.png" alt="web" width="600"/>
+</div>
 
 Ao final, o workflow implementado permitirá:
 
@@ -32,6 +35,10 @@ O workflow configurado no GitHub Actions realiza as seguintes etapas:
 2. **Execução dos Testes**: Roda os testes automatizados em um ambiente de CI.
 3. **Coleta de Evidências**: Captura screenshots e logs dos testes.
 4. **Integração com Cypress Dashboard e Tesults**: Envia os resultados para o Cypress Dashboard e Tesults para análise.
+
+<div align="center">
+  <img src="https://github.com/carolprotasio/cypress-actions/blob/main/.github/cy-cloud.png" alt="web" width="600"/>
+</div>
 
 ## 🔧 Funcionalidades
 

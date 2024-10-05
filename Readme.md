@@ -4,7 +4,7 @@
 
 
 
-# Cypress Actions - Continuous Testing Pipeline with GitHub Actions
+# Cypress Actions - Pipeline de Testes Contínuos com GitHub Actions
 
 Este repositório faz parte do curso da QA Xperience na Udemy, que aborda a construção de pipelines de testes contínuos em Cypress usando o GitHub Actions. O objetivo deste projeto é criar um workflow de testes contínuos, melhorando a eficiência dos testes de regressão e integrando ferramentas como o Cypress Dashboard e Tesults para geração de relatórios, screenshots e métricas de execução.
 

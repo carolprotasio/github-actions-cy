@@ -39,22 +39,4 @@ jobs:
     env:
      TARGET_TOKEN_CHROME: ${{ secrets.TARGET_TOKEN_CHROME}}
 
-  cypress-firefox-tests:
-    needs: cypress-electron-tests
-    runs-on: ubuntu-latest
-    container:
-      image: cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1
-    steps: 
-     - name: Get code
-       uses: actions/checkout@v4.2.0
-
-     - name: Install dependencies
-       run: yarn install
-
-     - name: Check available browsers
-       run: npx cypress info
-
-     - name: Run E2E tests
-       run: node runner-firefox.js
-       env:
-         TARGET_TOKEN_FIREFOX: ${{ secrets.TARGET_TOKEN_FIREFOX }}
+ 

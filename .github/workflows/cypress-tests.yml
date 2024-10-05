@@ -43,7 +43,7 @@ jobs:
     needs: cypress-electron-tests
     runs-on: ubuntu-latest
     container:
-      image: cypress/browsers:node-20.17.0-chrome-118.0.5993.90-1-ff-116.0.5849.96-1
+      image: cypress/included:12.5.1
     steps: 
      - name: Get code
        uses: actions/checkout@v4.2.0

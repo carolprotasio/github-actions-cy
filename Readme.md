@@ -50,10 +50,7 @@ O workflow configurado no GitHub Actions realiza as seguintes etapas:
 
 Para executar os testes localmente, siga os passos abaixo:
 
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/carolprotasio/cypress-actions.git
-    ```
+1. Clone o repositório
    
 2. Instale as dependências:
     ```bash
